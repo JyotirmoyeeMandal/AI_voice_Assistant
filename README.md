@@ -55,11 +55,11 @@ GEMINI_API_KEY=your_api_key_here
 
 Open your browser and go to: http://localhost:5000
 
-API Endpoints
+### API Endpoints
 GET /
 Renders the voice assistant UI in your browser.
 
-POST /chat
+### POST /chat
 Request Body:
 ```
 {
@@ -72,27 +72,25 @@ Response:
   "response": "The weather today is sunny and warm. Don’t forget your sunglasses!"
 }
 ```
-GET /health
+### GET /health
 
 Simple health check endpoint. Returns JSON.
 
-Security Notes
+### Security Notes
 1. .env is excluded via .gitignore to keep your API key safe.
 2. Do not expose your backend without API rate limiting or auth if deployed publicly.
 
-Deployment Tips
+### Deployment Tips
 1. You can deploy this app to Render, Fly.io, Heroku, or any cloud service that supports Flask.
 2. Set your 'GEMINI_API_KEY' in environment variables during deployment.
 
-Future Improvements
+### Future Improvements
 1. Add authentication for multi-user support
 2. Persistent chat history
 3. Support for multiple languages
 4. Progressive Web App (PWA) features
 
-License
-This project is licensed under the MIT License.
 
-Author
-Jyotirmoyee Mandal
+
+
 Let me know if you'd like this in a file (`README.md`) or want to add badges, a GIF demo, or a deployment button (like Render or Heroku)!
