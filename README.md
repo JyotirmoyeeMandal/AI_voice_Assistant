@@ -77,20 +77,17 @@ Response:
 Simple health check endpoint. Returns JSON.
 
 ### Security Notes
-1. .env is excluded via .gitignore to keep your API key safe.
-2. Do not expose your backend without API rate limiting or auth if deployed publicly.
+- .env is excluded via .gitignore to keep your API key safe.
+- Do not expose your backend without API rate limiting or auth if deployed publicly.
 
 ### Deployment Tips
-1. You can deploy this app to Render, Fly.io, Heroku, or any cloud service that supports Flask.
-2. Set your 'GEMINI_API_KEY' in environment variables during deployment.
+- You can deploy this app to Render, Fly.io, Heroku, or any cloud service that supports Flask.
+- Set your 'GEMINI_API_KEY' in environment variables during deployment.
 
 ### Future Improvements
-1. Add authentication for multi-user support
-2. Persistent chat history
-3. Support for multiple languages
-4. Progressive Web App (PWA) features
+- Add authentication for multi-user support
+- Persistent chat history
+- Support for multiple languages
+- Progressive Web App (PWA) features
 
-
-
-
-Let me know if you'd like this in a file (`README.md`) or want to add badges, a GIF demo, or a deployment button (like Render or Heroku)!
+**Let me know if you'd like this in a file (`README.md`) or want to add badges, a GIF demo, or a deployment button (like Render or Heroku)!**
