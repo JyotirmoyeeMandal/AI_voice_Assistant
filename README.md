@@ -44,7 +44,7 @@ venv\Scripts\activate        # On Windows
 3. Install Dependencies
    ```
    pip install flask google-generativeai
-``
+
 4. Set up .env file 
 ```
 GEMINI_API_KEY=your_api_key_here
@@ -52,7 +52,7 @@ GEMINI_API_KEY=your_api_key_here
 5. Start the Flask Server
    ```
    python app.py
-``
+
 Open your browser and go to: http://localhost:5000
 
 API Endpoints
